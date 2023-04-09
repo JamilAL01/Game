@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Poppins:wght@200&display=swap');
+
+*{
+    margin: 0%;
+}
+body{
+    background-color:snow;
+}
+.Head{
+    background-color:rgb(32, 139, 32);
+    height: 2px;
+    text-align: center;
+    padding: 2%;
+}
+.Head span{
+    color:rgb(0, 0, 0);
+}
+.Head h2{
+margin-top: -15px;
+font-family: 'Poppins';
+color: white;
+font-weight: bold;
+}
+.Head nav{
+    display:flex;
+    justify-content: space-between;
+   
+}
+.Head  ul {
+    display: inherit;
+}
+.Head  li{
+list-style: none;
+margin-right: 100px;
+margin-top: -10px;
+}
+.Head a{
+    text-decoration: none;
+    font-size: larger;
+    font-family: 'Poppins';
+    color:white;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+ul li a:hover{
+    color:black;
+}
+.Info{
+    display: flex;
+    flex-direction: column;
+    background-image: url("Image1.jpg");
+    background-size: cover;
+    justify-content: center;
+    height: 750px;
+}
+.Info h1{
+    color:white;
+    font-family: 'Poppins';
+    font-size:30px;
+    margin-top: -13%;
+}
+.Info h2{
+    color:white;
+    font-weight: bold;
+    font-size:x-large;
+    font-family: 'Poppins';
+    letter-spacing: 5px;
+}
+.Info button{
+    background-color:darkolivegreen;
+    border-radius: 10px;
+    cursor: pointer;
+    border-color:white;
+    width:15%;
+    height:40px;
+    color:white;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.More{
+    margin-left: 0%;
+    height:300px;
+    background-color: snow;
+}
+.More h2{
+    color:rgb(138, 80, 39);
+    margin-top: -150px;
+}
+.More h3{
+    font-family: 'Poppins';
+    color:green;
+}
+.More span{
+    color:rgb(187, 81, 5);
+}
+.More img{
+    margin-top: 100px;
+    margin-left:100px;
+}
+.Update{
+    margin-left: 0%;
+    height:400px;
+    margin-bottom: -150px;
+    background-color:snow;
+}
+.Update h1{
+    font-weight: bold;
+    color:rgb(138, 80, 39);
+    margin-top: -170px;
+}
+.Update img{
+    margin-top: 30px;
+    margin-left:100px;
+}
+.Update p{
+    color:green;
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: larger;
+}
+.Images{
+    margin-left:100px;
+    margin-top: 10px;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.Update h3{
+    font-family: 'Poppins';
+    font-weight: bold;
+    letter-spacing: 5px;
+    color:green;
+}
+.Update input{
+    margin-top: 10px;
+    width:250px;
+    height:30px;
+    border-radius: 5px;
+    border-color:green;
+    background-color: transparent;
+    text-align: center;
+}
+input::placeholder{
+    color: green;
+}
+#Help{
+    margin-top: 250px;
+}
+.Footer{
+    display: flex;
+    flex-direction: column;
+    background-image: url("Footer.jpg");
+    background-size: cover;
+    justify-content: center;
+    height: 200px;
+    margin-top: 100px;
+}
